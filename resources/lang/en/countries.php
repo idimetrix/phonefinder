@@ -1,0 +1,21 @@
+<?php
+return [
+    'uk' => 'United Kingdom',
+    'nl' => 'Netherlands',
+    'be' => 'Belgium',
+    'pt' => 'Portugal',
+    'au' => 'Australia',
+    'it' => 'Italy',
+    'ae' => 'UAE',
+    'se' => 'Sweden',
+    'at' => 'Austria',
+    'cz' => 'Czech Republic',
+    'ch' => 'Switzerland',
+    'de' => 'Germany',
+    'dk' => 'Denmark',
+    'th' => 'Thailand',
+    'no' => 'Norway',
+    'ca' => 'Canada',
+    'tr' => 'Turkey',
+    'sa' => 'Saudi Arabia',
+];

@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "gulp watch",
+    "key": "php artisan key:generate",
+    "migrate": "php artisan migrate",
+    "migrate:rollback": "php artisan migrate:rollback",
+    "prod": "gulp --production",
+    "refresh": "npm run migrate:rollback && npm run migrate && npm run seed",
+    "seed": "php artisan db:seed",
+    "seed:rollback": "php artisan migrate:refresh",
+    "server": "php artisan serve --port=8081"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.0",
+    "bootstrap-sass": "^3.3.7",
+    "cookieconsent": "^3.0.4",
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-vue-2": "^0.2.0",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "lodash": "^4.16.2",
+    "openlayers": "^4.1.1",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3"
+  }
+}
